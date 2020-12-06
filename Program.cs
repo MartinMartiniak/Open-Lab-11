@@ -20,4 +20,4 @@ namespace Open_Lab_11
         }
     }
 }
-/// musim potrenovat 
+/// musim potrenovat velmi
