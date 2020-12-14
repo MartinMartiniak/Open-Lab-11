@@ -15,7 +15,7 @@ namespace Open_Lab_11
         public Library(int numberOfBooks, int numberOfStudents, List<string> studentslist, List<Book> bookslist)
         {
             NumberOfBooks = numberOfBooks;
-            NumberOfStudents = numberOfBooks;
+            NumberOfStudents = numberOfStudents;
             StudentsList = studentslist;
             BooksList = bookslist;
         }
