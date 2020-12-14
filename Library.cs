@@ -8,8 +8,7 @@ namespace Open_Lab_11
     {
         internal static Library schoolLibrary;
 
-        public int NumberOfBooks { get; set; }
-        public int NumberOfStudents { get; set; }
+
         public List<string> StudentsList { get; set; }
         public List<Book> BooksList { get; set; }
         public Library(int numberOfBooks, int numberOfStudents, List<string> studentslist, List<Book> bookslist)
