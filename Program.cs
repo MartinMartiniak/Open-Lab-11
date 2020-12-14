@@ -15,7 +15,7 @@ namespace Open_Lab_11
             List<Book> books = new List<Book>() { chemia, triPrasiatka };
             List<string> students = new List<string>() { "John", "Paul", };
 
-            Library schoolLibrary = new Library(2, 2, students, books);
+            Library schoolLibrary = new Library( students, books);
             schoolLibrary.Discribe();
         }
     }

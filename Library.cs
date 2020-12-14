@@ -11,29 +11,27 @@ namespace Open_Lab_11
 
         public List<string> StudentsList { get; set; }
         public List<Book> BooksList { get; set; }
-        public Library(int numberOfBooks, int numberOfStudents, List<string> studentslist, List<Book> bookslist)
+        public Library( List<string> studentslist, List<Book> bookslist)
         {
-            NumberOfBooks = numberOfBooks;
-            NumberOfStudents = numberOfStudents;
+            
             StudentsList = studentslist;
             BooksList = bookslist;
         }
         public Library()
         {
             Book book = new Book();
-            NumberOfBooks = -1;
-            NumberOfStudents = -1;
+           
             StudentsList = new List<string>();
             BooksList = new List<Book>();
 
         }
         public override string ToString()
         {
-            return $"{NumberOfBooks}\n{NumberOfStudents}\n{StudentsList}\n{BooksList}";
+            return $"{StudentsList}\n{BooksList}";
         }
         public void Discribe()
         {
-            Console.WriteLine($"Pocet studentov :{NumberOfStudents}\nPocet knih:{NumberOfBooks}");
+           
 
             Console.WriteLine("-----------");
             Console.WriteLine("Vypis studentov:");
