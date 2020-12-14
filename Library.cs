@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Open_Lab_11
 {
-    class Library : Book
+    class Library
     {
         internal static Library schoolLibrary;
 
